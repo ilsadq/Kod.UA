@@ -1,0 +1,114 @@
+:root {
+  --color-primary: #3a8cc8;
+  --color-card: #2c3136;
+  --color-selected: #dc3545;
+  --bg-color: #2b2b2b;
+  --card-radius: 8px;
+  --href-color: #787bc8;
+}
+
+* {
+  color: white;
+  font-weight: 500;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#contacts a {
+  color: var(--href-color);
+}
+
+#contacts a:hover {
+  color: var(--color-selected);
+}
+
+a:hover {
+  color: var(--color-selected);
+}
+
+hr {
+  height: 1px;
+}
+
+article {
+  width: 400px;
+}
+
+#logo img {
+  height: 78px;
+}
+
+#header hr {
+  height: 1px;
+  color: white;
+  margin: 0;
+  box-shadow: 2px 2px 5px white;
+}
+
+#header-card {
+  background-color: var(--color-card);
+  border-radius: var(--card-radius);
+  font-size: 18px;
+}
+
+#search-form input {
+  outline: 0;
+}
+
+#header-card div:last-child {
+  color: var(--color-selected);
+}
+
+#logo img {
+  width: 30%;
+  height: auto;
+}
+
+#avatar img {
+  width: 50px;
+  margin-right: 10px;
+  border-radius: 50px;
+}
+
+/*  НОВОСТЬ */
+
+#news-content h1 {
+  text-align: center;
+}
+
+#news-content p {
+  text-align: left;
+  margin-top: 3rem;
+}
+
+#news-content img {
+  margin-top: 3rem;
+  width: 75%;
+  text-align: center;
+}
+
+#news-content blockquote {
+  text-align: left;
+  background-color: var(--color-card);
+  padding: 3rem;
+  border-radius: var(--card-radius);
+}
+
+/* adminAdd */
+
+#preview h1 {
+  text-align: center;
+}
+
+/* editForm */
+
+/* Медиа */
+@media (min-width: 1400px) {
+  #news-list {
+    justify-content: center;
+  }
+}
